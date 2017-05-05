@@ -1,0 +1,36 @@
+{
+  "name": "commander",
+  "version": "0.0.1",
+  "description": "A Commands manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "webpack-dev-server --env=dev --config webpack.dev.js --progress --profile --colors --hot"
+  },
+  "repository": "",
+  "keywords": [
+    "wordmark",
+    "markdown",
+    "editor"
+  ],
+  "author": "Hao Liu",
+  "license": "Hao Liu",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "electron": "^1.4.1",
+    "less-loader": "^4.0.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "menubar": "~5.2.3"
+  }
+}
